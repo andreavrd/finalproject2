@@ -1,0 +1,93 @@
+body {
+  margin: 0 auto;
+  background-color: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  padding-left: 20px;
+  color: white;
+  padding-top: 30px;
+}
+
+.title {
+  background-color: #111;
+  height: 100px;
+  margin: auto;
+  margin-top: -22px;
+}
+
+.awesome {
+  width:300px;
+  height: 300px;
+  margin: 50px;
+  background-color: white;
+  color: green;
+  float: left;
+  padding-left: 20px;
+    border-radius: 5px;
+}
+.full {
+  text-transform: capitalize;
+  color: red;
+  width:300px;
+  height: 300px;
+  margin: 50px;
+  background-color: white;
+  float: left;
+  padding-left: 20px;
+    border-radius: 5px;
+  opacity: 0.4;
+}
+.almostfull {
+  color: purple;
+  width:300px;
+  height: 300px;
+  margin: 50px;
+  background-color: white;
+  float: left;
+  padding-left: 20px;
+    border-radius: 5px;
+}
+
+#map, #map2{
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+ .A, .B, .C, .D, .EF, .Economy {
+   border: solid black 2px;
+ }
+
+.A {
+  background-image: url("images/parkingA.png");
+  background-size: cover;
+  border: solid black 2px;
+}
+
+h3, li {
+  background-color: white;
+  padding: 3px;
+  border: dotted 1px black;
+  border-radius: 5px;
+}
+.B {
+background-image: url("images/parkingB.png");
+  background-size: cover;
+}
+.C {
+  background-image: url("images/parkingC.png");
+    background-size: cover;
+}
+.D {
+  background-image: url("images/parkingD.png");
+    background-size: cover;
+}
+.EF {
+  background-image: url("images/parkingEF.png");
+    background-size: cover;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,34 @@
+// css inspired by https://www.youtube.com/watch?time_continue=401&v=lhuyxt8YpbM 
+// flexbox and grid!
+html{
+  box-sizing:border-box;
+}
+*,*:before,*:after{
+  box-sizing:inherit;
+}
+body{
+  margin:0;
+}
+header{
+  background-color: rebeccapurple;
+  padding: 40px;
+  text-align: center;
+  input{
+    padding: .5em;
+    font-size: 1.5em;
+    margin: 0px auto;
+    width: 40%;
+    min-width: 300px;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 1px 1px 1px black;
+  }
+}
+#content{
+  background-color: #ddd;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
